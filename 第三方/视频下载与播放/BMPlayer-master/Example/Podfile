@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'BMPlayer_Example' do
+  pod 'BMPlayer', :path => '../'
+  pod 'SnapKit' , '~> 0.20.0'
+  pod 'NVActivityIndicatorView', '~> 2.6'
+  pod 'Reveal-iOS-SDK', :configurations => ['Debug']
+  pod 'SwipeBack'                         ## 全能滑动手势返回,建议集成
+end
